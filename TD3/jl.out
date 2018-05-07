@@ -1,0 +1,21 @@
+./JL_kmeans: configuration for this run:
+  images rescaled to 300 x 300
+  number of clusters: 3
+  number of multistart runs of Forgy's initialization: 300
+  JL epsilon: 0.15, JL factor: 4
+./JL_kmeans: k-means clustering in 270000 dimensions
+  cluster 0: 0 2 3 4 5 6 8 10 11 12 15 16 19
+  cluster 1: 7 9 13
+  cluster 2: 1 14 17 18
+sum of intra-cluster distances = 254652
+./JL_kmeans: elapsed CPU (original k-means) = 171.94s
+./JL_kmeans: elapsed CPU (JLL sampling)  = 21.48s
+./JL_kmeans: elapsed CPU (matrix product)  = 24.58s
+./JL_kmeans: k-means clustering in 533 dimensions
+  cluster 0: 7 9 13
+  cluster 1: 1 14 17 18
+  cluster 2: 0 2 3 4 5 6 8 10 11 12 15 16 19
+sum of intra-cluster distances = 247409
+./JL_kmeans: elapsed CPU (projected k-means)  = 0.34s
+./JL_kmeans: JL epsilon = 0.15; max err = 0.176165; avg err = 0.0258067
+./JL_kmeans: total CPU time = 219.91
