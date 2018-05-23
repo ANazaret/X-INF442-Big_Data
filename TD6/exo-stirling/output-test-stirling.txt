@@ -1,0 +1,27 @@
+Test numbers of Stirling, Q1 and Q2
+ Factorials n!
+  0! = 1
+  1! = 1
+  2! = 2
+  3! = 6
+  4! = 24
+  5! = 120
+  6! = 720
+ Binomials (n, k)
+  (4, 2) = 6
+  (4, 3) = 4
+  (4, 4) = 1
+  (4, 5) = 0
+  (5, 2) = 10
+  (5, 3) = 10
+  (5, 4) = 5
+  (5, 5) = 1
+ Stirling numbers of 2nd kind {n, k}
+  {4, 2} = 7 (explicit) = 7 (recursive, in 21 calls)
+  {4, 3} = 6 (explicit) = 6 (recursive, in 29 calls)
+  {4, 4} = 1 (explicit) = 1 (recursive, in 31 calls)
+  {4, 5} = 0 (explicit) = 0 (recursive, in 31 calls)
+  {5, 2} = 15 (explicit) = 15 (recursive, in 31 calls)
+  {5, 3} = 25 (explicit) = 25 (recursive, in 51 calls)
+  {5, 4} = 10 (explicit) = 10 (recursive, in 61 calls)
+  {5, 5} = 1 (explicit) = 1 (recursive, in 63 calls)
